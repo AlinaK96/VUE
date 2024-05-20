@@ -4,9 +4,6 @@ body #app {
   @include flexColumn(stretch, space-between);
   min-height: 100vh;
 
-  //& > * {
-  //  border: 1px solid #f0f;
-  //}
 }
 
 header {

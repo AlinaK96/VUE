@@ -1,14 +1,6 @@
-/* <!-- <editor-folder Colors> --> */
-/* <!-- </editor-folder--> */
-/* <!-- <editor-folder Sizes> --> */
-/* <!-- </editor-folder--> */
-/* <!-- <editor-folder Fonts> --> */
+
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
-/* <!-- </editor-folder--> */
-/* <!-- <editor-folder SiteColors> --> */
-/* <!-- </editor-folder--> */
-/* <!-- <editor-folder LocalUse> --> */
-/* <!-- </editor-folder--> */
+
 * {
   box-sizing: border-box;
   outline: none;
@@ -31,12 +23,6 @@ html, body {
   color: #fff;
 }
 
-/*
-::placeholder {
-  color: #222;
-  opacity: 0.6;
-}
-*/
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -69,23 +55,6 @@ img {
   object-fit: cover;
 }
 
-/*
-input {
-  @include inputFields;
-
-  &[type=button], &[type=submit], &[type=reset] {
-    @include inputFields(true);
-  }
-}
-
-button {
-  @include inputFields(true);
-}
-
-select, textarea {
-  @include inputFields(false, 4px 6px);
-}
-*/
 body #app {
   display: flex;
   flex-direction: column;
@@ -133,4 +102,3 @@ footer {
   padding: 0 max(20px, (100vw - 1200px) / 2);
 }
 
-/*# sourceMappingURL=style.css.map */

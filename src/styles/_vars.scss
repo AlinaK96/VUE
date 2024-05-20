@@ -1,4 +1,4 @@
-/* <!-- <editor-folder Colors> --> */
+
 $white: #FFF;
 $white-dark: #EEE;
 $gray: #BBB;
@@ -17,10 +17,7 @@ $blue: #39D;
 $blue-dark: #179;
 $purple: #B5D;
 $purple-dark: #939;
-/* <!-- </editor-folder--> */
 
-/* <!-- <editor-folder Sizes> --> */
-// Размеры
 $size-xs: 576px; // xs( < 576px )
 $size-sm: 768px; // sm( >= 576px )
 $size-md: 992px; // md( >= 768px )
@@ -32,19 +29,14 @@ $min-padding: 20px;
 $pd-desktop: max($min-padding, calc((100vw - $size-lg) / 2));
 $pd-tablet: max($min-padding, calc((100vw - $size-md) / 2));
 $pd-mobile: max($min-padding, calc((100vw - $size-xs) / 2));
-/* <!-- </editor-folder--> */
 
-/* <!-- <editor-folder Fonts> --> */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 $font-main: "DM Serif Display", serif;
 $font-second: "Jost", sans-serif;
-/* <!-- </editor-folder--> */
 
-/* <!-- <editor-folder SiteColors> --> */
 $color-clear: #FFFFFF;
 $color-main: #292f36;
 $color-second: #4D5053;
 $color-third: #F4F0EC;
 $color-fourth: #CDA274;
-/* <!-- </editor-folder--> */

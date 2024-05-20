@@ -1,4 +1,3 @@
-/* <!-- <editor-folder LocalUse> --> */
 @mixin inputFields($isButton: false, $padding: 5px 10px) {
   $background: #eee;
   $color: #333;
@@ -17,7 +16,6 @@
     transition: all 0.2s ease-in-out;
   }
 }
-/* <!-- </editor-folder--> */
 
 * {
   box-sizing: border-box;
@@ -37,16 +35,10 @@ html, body {
 }
 
 ::selection {
-  background: $color-main; // #69d;
+  background: $color-main;
   color: #fff;
 }
 
-/*
-::placeholder {
-  color: #222;
-  opacity: 0.6;
-}
-*/
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -68,12 +60,12 @@ body {
 
 a {
   transition: all 0.2s ease-in-out;
-  color: $color-main; // #49e;
+  color: $color-main; 
   text-decoration: none;
   cursor: pointer !important;
 
   &:is(:hover, :focus) {
-    color: $color-main; // #27c;
+    color: $color-main; 
   }
 }
 
@@ -82,20 +74,3 @@ img {
   object-fit: cover;
 }
 
-/*
-input {
-  @include inputFields;
-
-  &[type=button], &[type=submit], &[type=reset] {
-    @include inputFields(true);
-  }
-}
-
-button {
-  @include inputFields(true);
-}
-
-select, textarea {
-  @include inputFields(false, 4px 6px);
-}
-*/

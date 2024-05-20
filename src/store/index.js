@@ -174,17 +174,13 @@ export default new Vuex.Store({
         ],
     },
     mutations: {
-        // методы для изменения
     },
     actions: {
-        // методы для асинхронных операций
     },
     getters: {
-        // методы для чтения состояния
         listPages: state => state.listPages,
         projects: state => state.projects,
     },
     modules: {
-        // модули Vuex для разделения хранилища на под-хранилища
     },
 });
